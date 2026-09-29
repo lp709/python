@@ -1,8 +1,13 @@
+'''
+Adicionar idade a cada um dos utilizador e meter que isso apareca no terminal
+
+'''
+
 country = [
-    {"nome": "Leandro", "id": "pt-PT", "pais": "Portugal", "nacionalidade": "Portuguesa"},
-    {"nome": "Edvaldo", "id": "pt-BR", "pais": "Brazil", "nacionalidade": "Brazileira"},
-    {"nome": "Esmy", "id": "es-ES", "pais": "Espanha", "nacionalidade": "Espanhola"},
-    {"nome": "Beatriz", "id": "en-US", "pais": "Estados Unidos De America", "nacionalidade": "Americana"}
+    {"id": "pt-PT", "nome": "Leandro", "pais": "Portugal", "nacionalidade": "Portuguesa"},
+    {"id": "pt-BR", "nome": "Edvaldo", "pais": "Brazil", "nacionalidade": "Brazileira"},
+    {"id": "es-ES", "nome": "Esmy", "pais": "Espanha", "nacionalidade": "Espanhola"},
+    {"id": "en-US", "nome": "Beatriz", "pais": "Estados Unidos De America", "nacionalidade": "Americana"}
 ]
 
 pessoas = [item["nome"] for item in country]
@@ -28,7 +33,7 @@ while True:
         print(f"Codigo De Lingua de {country[0]["pais"]}: {country[0]["id"]}\n")
         break
     elif info == country[1]["nome"] or info == country[1]["pais"]:
-        print(f"\nVoce Tem Nacionalidade: {country[1]["nacionalidade"]}")
+        print(f"\n{country[1]["nome"]} Tem Nacionalidade: {country[1]["nacionalidade"]}")
         print(f"Codigo de lingua no {country[1]["pais"]}: {country[1]["id"]}\n")
         break
     elif info == country[2]["nome"] or info == country[2]["pais"]:
@@ -44,8 +49,8 @@ while True:
         print(f"\n{pessoas}\n")
         break
     else:
-        print("Por Favor Tente Um Desses Nomes Ou Paises")
+        print("\nPor Favor Tente Um Desses Nomes Ou Paises:\n")
         pessoas = [item["nome"] for item in country]
         paises = [item["pais"] for item in country]
-        print(pessoas)
-        print(paises)
+        print(f"{pessoas}\n")
+        print(f"{paises}\n")
