@@ -1,6 +1,6 @@
 #!/bin/bash
 
-printf "\nA iniciar a atualizacao\n"
+printf "\nA iniciar a atualizacao...\n"
 
 if git pull; then
     printf "\nFinalizada com sucesso\n"
