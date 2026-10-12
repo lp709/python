@@ -14,5 +14,6 @@ while variavel:
     print(f"Dados: {type(data)}\n")
     #se digitar stop o programa para
     if data == "stop":
+        print("Saindo...")
         break
 
