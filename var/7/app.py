@@ -11,7 +11,7 @@ idade = int(idade)
 altura = float(altura)
 solteiro = bool(solteiro)
 
-print(f"\nTipo: {type(nome)}\n Tipo: {type(idade)}\n Tipo: {type(altura)}\n Tipo: {type(solteiro)}\n")
+print(f"\nTipo: {type(nome)}\nTipo: {type(idade)}\nTipo: {type(altura)}\nTipo: {type(solteiro)}\n")
 
 print(f"\nSeja Bem-Vindo, {nome.upper()}")
 
