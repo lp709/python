@@ -1,5 +1,5 @@
 '''
-Adicionar idade a cada um dos utilizador e meter que isso apareca no terminal
+Adicionar idade a cada um dos utilizador e meter que isso aparecer no terminal
 
 '''
 
