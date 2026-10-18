@@ -1,4 +1,2 @@
-cartao = input('Tem Cartao Bancario: ')
-res_cartao = cartao == "sim"
-print(res_cartao)
-
+nome_completo = input('Digite o seu nome completo: ')
+print(nome_completo.upper())
