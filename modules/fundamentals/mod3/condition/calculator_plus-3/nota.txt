@@ -1,0 +1,1 @@
+Leandro, adicionar multiplos if e else no programa, ver os erros de log¡ca e corrigir erros ortograficos
