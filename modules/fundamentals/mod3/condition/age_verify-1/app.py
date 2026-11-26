@@ -1,7 +1,7 @@
-nome = input("Digite o seu nome: ")
-idade = int(input("Digite a sua idade: "))
+name = input("Type your name: ").title()
+age = int(input("Type your age: "))
 
-if idade >= 18:
-	print(f"{nome.capitalize()}, Voce maior de idade")
+if age >= 18:
+	print(f"{name}, you are an adult")
 else:
-	print(f"{nome.capitalize()}, Voce menor de idade")
+	print(f"{name}, you are a minor")
